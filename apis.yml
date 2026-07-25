@@ -1,8 +1,28 @@
 aid: ctrl-therapeutics
-name: Ctrl Therapeutics
-description: Ctrl Therapeutics is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ctrl-therapeutics.png
+name: CTRL Therapeutics
+description: >-
+  CTRL Therapeutics (cTRL Tx) is a Chicago-based preclinical biotechnology company developing
+  next-generation cell therapies for solid tumors. The company harnesses circulating tumor-reactive
+  lymphocytes (cTRLs) - a rare, potent T cell population found in the blood and naturally equipped to
+  fight cancer - to engineer polyclonal cell therapies that avoid invasive tumor-tissue surgery. From a
+  single blood draw, CTRL's proprietary IsoQore cell-sorting platform isolates millions of migratory,
+  tumor-reactive cTRLs via novel markers, aiming to simplify the discovery, manufacturing and
+  administration of solid-tumor cell therapy. CTRL launched in 2023 with a $10M seed financing led by
+  General Catalyst, with participation from Intermountain Health and FACIT. This profile was surfaced
+  as a General Catalyst portfolio company and added to the API Evangelist network; the company operates
+  a corporate website and publishes no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/ctrl-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Cell Therapy
+- Oncology
+- Cancer
+- Healthcare
+- Life Sciences
+- Pharmaceuticals
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ctrl-therapeutics-domain-security.yml
+- type: Website
+  url: https://ctrl-tx.com
+- type: About
+  url: https://ctrl-tx.com/our-science
+- type: Team
+  url: https://ctrl-tx.com/our-team
+- type: News
+  url: https://ctrl-tx.com/news
+- type: Contact
+  url: https://ctrl-tx.com/contact
+- type: Careers
+  url: https://ctrl-tx.com/join-us
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ctrl-therapeutics/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
